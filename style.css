@@ -1,0 +1,12 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+form input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.item{
+    color: crimson;
+}

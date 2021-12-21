@@ -1,112 +1,32 @@
-// const test = "hoi";
-// console.log(test.substring(1,3).toUpperCase())
+// console.log(window);
 
-// const fruit1 = 'salam';
-// const fruit = ['a1','a2','a3'];
-// console.log(fruit[1]);
-// fruit[3] = 'a4';
-// fruit.push('a5');
-// console.log(fruit);
-// fruit[3] = 'a0';
+//single
+// console.log(document.getElementById('myform'));
+// console.log(document.querySelector('h1'));
 
-// console.log(fruit);
-// fruit.pop();
-// console.log(fruit);
-// console.log(Array.isArray(fruit))
+//multiple
+// console.log(document.querySelectorAll('input'));
+// console.log(document.getElementsByClassName('item'));
+// console.log(document.getElementsByTagName('li'));
 
-// num = 1;
-// for(let i=1; i <= 99 ; i=i+2){
-//    console.log( num ,i) ;
-//    ++num
-// }
-// console.log(num)
-
-// const first  ='ehsan';
-// var last= 'bazaei';
-// console.log(first)
-
-// console.log(`i am ${first} ${last}`)
-
-// const person = { 
-//     firstName: 'John', 
-//     lastName: 'Doe', 
-//     age: 40, 
-//     hobbies: ['music', 'movies', 'sports'], 
-//     address: { 
-//         street: '50 main st', 
-//         city: 'Boston', 
-//         state: "MA"
-//     }
-// }
-
-// const { firstName, lastName, address: { city }} = person; 
-// console.log(person.age);
-
-// const todos = [
-//     {
-//         id:1,
-//         text: 'text A',
-//         isCompleted: true
-//     },
-//     {
-//         id:2,
-//         text: 'text A',
-//         isCompleted: true
-//     },
-//     {
-//         id:3,
-//         text: 'text A',
-//         isCompleted: true
-//     },
-// ];
-
-// const todoJSON = JSON.stringify(todos);
-// console.log(todoJSON);
-
-
-// //constructor function
-// function person(firstName, lastName, dob){
-//         this.firstName = firstName;
-//         this.lastName = lastName;
-//         this.dob = new Date(dob); 
-//         // this.getBirthYear = function(){
-//         //     return this.dob.getFullYear();
-//         // }
-//         // this.getFullName = function(){
-//         //     return `${firstName} ${lastName}`;
-//         // }
-// }
-// person.prototype.getBirthYear = function(){
-//     return this.dob.getFullYear(); 
-// }
-// person.prototype.getFullName = function(){
-//     return `${this.firstName} ${this.lastName}`; 
-// }
+const ul = document.querySelector('.item');
+// ul.remove()
+// ul.lastElementChild.remove();
+// ul.firstElementChild.textContent = "hoi";
+// ul.children[1].innerText = 'hallo';
+// ul.lastElementChild.innerHTML = '<h3>hi</h3>';
 
 
 
+const btn = document.querySelector('.btn');
+// btn.style.background = 'red';
 
+// btn.addEventListener('click', (e) =>{
+//     e.preventDefault();
+//     console.log('click me');
+// });
 
-// class person {
-//     constructor(firstName, lastName, dob){
-//         this.firstName = firstName;
-//         this.lastName = lastName;
-//         this.dob = new Date(dob); 
-//     }
-//     getBirthYear(){
-//         return this.dob.getFullYear();
-//     }
-//     getFullName(){
-//         return `${this.firstName} ${this.lastName}`; 
-//     }
-// } 
-
-// const person1 = new person('John', 'Doe', '4-3-1980');
-// const person2 = new person('Mary', 'Smith', '3-6-1970');
-
-// // console.log(person1.dob.getFullYear());
-// console.log(person1.getFullName());
-// console.log(person2);
-
-
-
+// btn.addEventListener('click', (e) =>{
+//     e.preventDefault();
+//     console.log(e.target.id);
+// });
