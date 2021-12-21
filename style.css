@@ -10,3 +10,16 @@ form input{
 .item{
     color: crimson;
 }
+.bg-dark{
+    background-color: #000;
+    color: #fff;
+}
+.bg-light{
+    background-color: #fff;
+    color: #000;
+}
+.error{
+    background-color: red;
+    color: seashell;
+    padding: 15px;
+}
